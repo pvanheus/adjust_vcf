@@ -2,7 +2,7 @@
 
 Scripts to adjust coordinates in VCF. The adjustements are specified in a BED-like file with the following files:
 
-dest_chrom start_coord end_coord adjustment src_chrom
+dest_chrom start_coord end_coord offset src_chrom
 
 where:
 
