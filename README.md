@@ -16,4 +16,6 @@ The `psl_to_bed.py` script computes this format output from [PSL format](http://
 
 The `adjust_vcf.py` uses the BED-like format to convert VCF from src_chrom to dest_chrom. It is assumed that src_chrom to dest_chrom is a 1-to-1 mapping. This script requires the [intervaltree](https://github.com/chaimleib/intervaltree/tree/master) Python module.
 
+*Note* that the BED-like format uses 0-based half-open coordinates (base at start coordinate is included, base at end coordinate is excluded), whereas VCF uses 1-based coordinates.
+
 These scripts are very rough and might contain bugs.
